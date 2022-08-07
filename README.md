@@ -26,9 +26,13 @@ When executing a Home or Move command the axis will automatically enable.
 ### HomePosition
 **Message:** DeltaRobot>HomePosition>Z>
 
-This changes the coordinates of the home position. When you home it sets the Z axis on the given coordinate.
+This changes the motors theta angles for the home position. When you home it sets the current angle to this number.
 
 Use this when you change the upper range of the robot arms.
+
+If you change the home angle, this command needs to be executed every time the program reboots.
+
+This only updates the angle variable and doesn't home the robot.
 
 ### Stop
 **Message:** DeltaRobot>DisableAxis>
