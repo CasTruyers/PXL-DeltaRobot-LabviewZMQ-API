@@ -21,7 +21,7 @@ Moves the deltarobot to the given coordinates with the given velocity, accelerat
 ### DisableAxis
 **Message:** DeltaRobot>DisableAxis>
 
-Disables all the axis thus no current will flow through the motor and it can be moved by hand if you are big boi.
+Disables all the axis thus no current will flow through the motor and it can be moved by hand if you big boi.
 
 When executing a Home or Move command the axis will automatically enable.
 
