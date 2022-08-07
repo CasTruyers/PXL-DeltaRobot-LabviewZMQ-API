@@ -24,7 +24,7 @@ Disables all the axis thus no current will flow through the motor and it can be 
 When executing a Home or Move command the axis will automatically enable.
 
 ### HomePosition
-**Message:** DeltaRobot>HomePosition>Z>
+**Message:** DeltaRobot>HomePosition>theta1:theta2:theta3>
 
 This changes the motors theta angles for the home position. When you home it sets the current angle to this number.
 
