@@ -2,6 +2,8 @@
 
 ## Labview - ZMQ API 
 
+cRio IP: 192.168.69.40:5555
+
 ## Commands:
 
 ### Home
